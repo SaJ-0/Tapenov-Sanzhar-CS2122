@@ -1,0 +1,72 @@
+body{
+  background-color:#ADD8E6;
+}
+
+hr{
+  border-style: none;
+  background-color: pink;
+  height : 2px;
+}
+
+h3{
+  color: #468284;
+}
+
+.container{
+  width: 100%;
+  max-width: 2000px;
+  margin: 0 auto;
+}
+
+.header {
+padding: 15px;
+}
+
+.header__inner{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+padding: 30px;
+border-bottom: 2px solid#FFC0CB	;
+
+}
+
+.nav{
+  display: flex;
+font-size: 15px;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+.nav__link{
+  margin-left: 50px;
+color:#fff;
+text-decoration:none;
+opacity: 0.75;
+
+transition: opacity 0.1s
+linear;
+
+}
+
+.nav__link:first-child{
+  margin-left: 0;
+}
+
+.nav__link:hover{
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.header__logo{
+  font-size: 30px;
+  font-weight: 700;
+  color:#fff;
+}
+
+.Courses{
+  font-size: 15px;
+  text-decoration: underline;
+  color: #fff;
+  border-top: 3px solid pink;
+}
